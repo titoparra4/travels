@@ -15,12 +15,20 @@
 	"author": "Tito Parra @titoparra4",
 	"license": "ISC",
 	"dependencies": {
-		"body-parser": "^1.18.3",
+		"body-parser": "^1.20.9",
 		"dotenv": "^8.1.0",
-		"express": "^4.16.4",
-		"mysql2": "^1.6.5",
-		"nodemon": "^1.18.10",
-		"pug": "^2.0.3",
-		"sequelize": "^4.42.0"
+		"express": "^4.22.3",
+		"mysql2": "^3.24.6",
+		"pug": "^3.0.4",
+		"sequelize": "^6.37.8"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.14"
+	},
+	"overrides": {
+		"uuid": "^11.1.1",
+		"nodemon": {
+			"minimatch": "^11.0.6"
+		}
 	}
 }
